@@ -13,6 +13,7 @@ form.addEventListener('submit',function(e){
         document.querySelector('.success-message').style.display = 'block';
 
         campoA.value = '';
+        campoB.value = '';
     }
     else{
         document.querySelector('.error-message').style.display = 'block';
